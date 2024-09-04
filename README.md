@@ -1,12 +1,11 @@
-Project Title
+Next.js Website Starter Template
 =============
-
-A brief description of your project.
+A modern web template built using TypeScript and Next.js.
 
 Table of Contents
 -----------------
 
-- [Project Title](#project-title)
+- [Next.js Website Starter Template](#nextjs-website-starter-template)
   - [Table of Contents](#table-of-contents)
   - [Project Overview](#project-overview)
   - [Features](#features)
