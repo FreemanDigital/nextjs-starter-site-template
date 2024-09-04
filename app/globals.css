@@ -16,18 +16,28 @@
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.res-pad-x {
+    padding-left: clamp(1rem, 5vw, 5rem);
+    padding-right: clamp(1rem, 5vw, 5rem);
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.res-pad-y {
+    padding-top: clamp(1rem, 10vh, 6rem);
+    padding-bottom: clamp(1rem, 10vh, 6rem);
+}
+
+.res-heading-sm {
+    font-size: clamp(1.5rem, 5vw, 3rem);
+}
+
+.res-heading-lg {
+    font-size: clamp(3rem, 7vw + 1rem, 7rem);
+}
+
+.res-paragraph {
+    font-size: clamp(1rem, 2.25vw, 2rem);
+}
+
+p {
+    font-size: clamp(1.25rem, 2.5vw, 2rem);
 }
